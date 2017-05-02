@@ -1,0 +1,24 @@
+{
+  "name": "heroku-sandbox",
+  "version": "1.0.0",
+  "description": "Heroku Sandbox",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "node": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErrAza/heroku-sandbox.git"
+  },
+  "author": "Sean McCann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErrAza/heroku-sandbox/issues"
+  },
+  "homepage": "https://github.com/ErrAza/heroku-sandbox#readme"
+}
