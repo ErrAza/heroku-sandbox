@@ -1,24 +1,26 @@
 {
-  "name": "heroku-sandbox",
-  "version": "1.0.0",
-  "description": "Heroku Sandbox",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.15.2",
-    "node": "^0.0.0"
+  "name": "node-js-getting-started",
+  "version": "0.2.6",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "6.10.2"
   },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ErrAza/heroku-sandbox.git"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
-  "author": "Sean McCann",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ErrAza/heroku-sandbox/issues"
-  },
-  "homepage": "https://github.com/ErrAza/heroku-sandbox#readme"
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }

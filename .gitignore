@@ -1,26 +1,12 @@
-# OS X
-.DS_Store*
-Icon?
-._*
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Linux
-.directory
-*~
-
-
-# npm
+# Node build artifacts
 node_modules
-*.log
-*.gz
+npm-debug.log
 
+# Local development
+*.env
+*.dev
+.DS_Store
 
-# Coveralls
-coverage
-
-# Benchmarking
-benchmarks/graphs
+# Docker
+Dockerfile
+docker-compose.yml
